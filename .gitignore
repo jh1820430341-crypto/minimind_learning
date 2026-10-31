@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+.DS_Store
+out
+website/
+docs-minimind/
+
+# Local environments and credentials
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+
+# Generated model weights and training checkpoints
+*.safetensors
+*.pt
+*.pth
+*.ckpt
